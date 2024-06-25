@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/Jarik0906/Lab.git"
   },
-  "author": "Vlad",
+  "author": "Yaroslav",
   "license": "ISC",
   "dependencies": {
     "cowsay": "^1.6.0",
