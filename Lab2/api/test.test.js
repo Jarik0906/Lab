@@ -3,7 +3,7 @@ const app = require('./app');
 const request = supertest(app);
 
 it('test verification message', done => {
-    request.get("/").expect('Hello World!').end(done);
+    request.get("/").expect('Hello World').end(done);
 });
 
 it('test pass test', async () => {
