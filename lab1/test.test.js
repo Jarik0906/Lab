@@ -9,5 +9,5 @@ it('test verification message', done => {
 it('test pass test', async () => {
     const response = await request.get('/');
     expect(response.status).toBe(200);
-    expect(response.text).toBe('Hello World!');
+    expect(response.text).toBe('Hello World');
 });
